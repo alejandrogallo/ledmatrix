@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:ledmatrix-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -45,12 +46,12 @@ $EndDescr
 $Comp
 L ATMEGA328-P Controller
 U 1 1 5739FEC2
-P 8350 3250
-F 0 "Controller" H 7600 4500 50  0000 L BNN
-F 1 "ATMEGA328-P" H 8750 1850 50  0000 L BNN
-F 2 "DIL28" H 8350 3250 50  0000 C CIN
-F 3 "" H 8350 3250 50  0000 C CNN
-	1    8350 3250
+P 7250 2050
+F 0 "Controller" H 6500 3300 50  0000 L BNN
+F 1 "ATMEGA328-P" H 7650 650 50  0000 L BNN
+F 2 "DIL28" H 7250 2050 50  0000 C CIN
+F 3 "" H 7250 2050 50  0000 C CNN
+	1    7250 2050
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -208,36 +209,36 @@ F 3 "" H 4050 6050 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7350 2150 7100 2150
-Text Label 7300 2150 2    60   ~ 0
+	6250 950  6000 950 
+Text Label 6200 950  2    60   ~ 0
 CA0
 Wire Wire Line
-	7350 2250 7100 2250
-Text Label 7300 2250 2    60   ~ 0
+	6250 1050 6000 1050
+Text Label 6200 1050 2    60   ~ 0
 CA1
 Wire Wire Line
-	7350 2350 7100 2350
-Text Label 7300 2350 2    60   ~ 0
+	6250 1150 6000 1150
+Text Label 6200 1150 2    60   ~ 0
 CA2
 Wire Wire Line
-	7350 2450 7100 2450
-Text Label 7300 2450 2    60   ~ 0
+	6250 1250 6000 1250
+Text Label 6200 1250 2    60   ~ 0
 CA3
 Wire Wire Line
-	7350 2550 7100 2550
-Text Label 7300 2550 2    60   ~ 0
+	6250 1350 6000 1350
+Text Label 6200 1350 2    60   ~ 0
 CA4
 Wire Wire Line
-	7350 2650 7100 2650
-Text Label 7300 2650 2    60   ~ 0
+	6250 1450 6000 1450
+Text Label 6200 1450 2    60   ~ 0
 CA5
 Wire Wire Line
-	7350 2750 7100 2750
-Text Label 7300 2750 2    60   ~ 0
+	6250 1550 6000 1550
+Text Label 6200 1550 2    60   ~ 0
 CA6
 Wire Wire Line
-	7350 2850 7100 2850
-Text Label 7300 2850 2    60   ~ 0
+	6250 1650 6000 1650
+Text Label 6200 1650 2    60   ~ 0
 CA7
 Wire Wire Line
 	4200 650  4450 650 
@@ -283,36 +284,36 @@ F 3 "" H 4050 6950 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7350 3750 7100 3750
-Text Label 7300 3750 2    60   ~ 0
+	6250 2550 6000 2550
+Text Label 6200 2550 2    60   ~ 0
 AA0
 Wire Wire Line
-	7350 3850 7100 3850
-Text Label 7300 3850 2    60   ~ 0
+	6250 2650 6000 2650
+Text Label 6200 2650 2    60   ~ 0
 AA1
 Wire Wire Line
-	7350 3950 7100 3950
-Text Label 7300 3950 2    60   ~ 0
+	6250 2750 6000 2750
+Text Label 6200 2750 2    60   ~ 0
 AA2
 Wire Wire Line
-	7350 4050 7100 4050
-Text Label 7300 4050 2    60   ~ 0
+	6250 2850 6000 2850
+Text Label 6200 2850 2    60   ~ 0
 AA3
 Wire Wire Line
-	7350 4150 7100 4150
-Text Label 7300 4150 2    60   ~ 0
+	6250 2950 6000 2950
+Text Label 6200 2950 2    60   ~ 0
 AA4
 Wire Wire Line
-	7350 4250 7100 4250
-Text Label 7300 4250 2    60   ~ 0
+	6250 3050 6000 3050
+Text Label 6200 3050 2    60   ~ 0
 AA5
 Wire Wire Line
-	7350 4350 7100 4350
-Text Label 7300 4350 2    60   ~ 0
+	6250 3150 6000 3150
+Text Label 6200 3150 2    60   ~ 0
 AA6
 Wire Wire Line
-	7350 4450 7100 4450
-Text Label 7300 4450 2    60   ~ 0
+	6250 3250 6000 3250
+Text Label 6200 3250 2    60   ~ 0
 AA7
 Wire Wire Line
 	1600 1300 1600 1050
@@ -1213,4 +1214,48 @@ F 3 "" H 3700 7150 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1600 6950 3900 6950
+$Comp
+L GND #PWR?
+U 1 1 573A1AB7
+P 8600 3250
+F 0 "#PWR?" H 8600 3000 50  0001 C CNN
+F 1 "GND" H 8600 3100 50  0000 C CNN
+F 2 "" H 8600 3250 50  0000 C CNN
+F 3 "" H 8600 3250 50  0000 C CNN
+	1    8600 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3250 8600 3250
+Wire Wire Line
+	8150 3150 8300 3150
+Wire Wire Line
+	8300 3150 8300 3250
+Connection ~ 8300 3250
+$Comp
+L Battery BT?
+U 1 1 573A36D4
+P 8850 1100
+F 0 "BT?" H 8950 1150 50  0000 L CNN
+F 1 "Battery" H 8950 1050 50  0000 L CNN
+F 2 "" V 8850 1140 50  0000 C CNN
+F 3 "" V 8850 1140 50  0000 C CNN
+	1    8850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 950  8850 950 
+Wire Wire Line
+	8850 1250 8850 1500
+$Comp
+L GND #PWR?
+U 1 1 573A3AF4
+P 8850 1500
+F 0 "#PWR?" H 8850 1250 50  0001 C CNN
+F 1 "GND" H 8850 1350 50  0000 C CNN
+F 2 "" H 8850 1500 50  0000 C CNN
+F 3 "" H 8850 1500 50  0000 C CNN
+	1    8850 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
