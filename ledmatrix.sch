@@ -1215,15 +1215,15 @@ $EndComp
 Wire Wire Line
 	1600 6950 3900 6950
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 573A1AB7
 P 8600 3250
-F 0 "#PWR1" H 8600 3000 50  0001 C CNN
+F 0 "#PWR01" H 8600 3000 50  0001 C CNN
 F 1 "GND" H 8600 3100 50  0000 C CNN
 F 2 "" H 8600 3250 50  0000 C CNN
 F 3 "" H 8600 3250 50  0000 C CNN
 	1    8600 3250
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	8150 3250 8600 3250
@@ -1248,10 +1248,10 @@ Wire Wire Line
 Wire Wire Line
 	8850 2500 8850 2750
 $Comp
-L GND #PWR2
+L GND #PWR02
 U 1 1 573A3AF4
 P 8850 2750
-F 0 "#PWR2" H 8850 2500 50  0001 C CNN
+F 0 "#PWR02" H 8850 2500 50  0001 C CNN
 F 1 "GND" H 8850 2600 50  0000 C CNN
 F 2 "" H 8850 2750 50  0000 C CNN
 F 3 "" H 8850 2750 50  0000 C CNN
@@ -1271,4 +1271,69 @@ F 3 "" H 8850 1450 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	8850 1950 8850 2200
+NoConn ~ 8150 1550
+NoConn ~ 8150 1250
+NoConn ~ 6250 1800
+NoConn ~ 6250 1900
+NoConn ~ 6250 2000
+NoConn ~ 6250 2100
+NoConn ~ 6250 2200
+NoConn ~ 6250 2300
+NoConn ~ 6250 2400
+Connection ~ 1900 650 
+Connection ~ 2200 650 
+Connection ~ 2500 650 
+Connection ~ 2800 650 
+Connection ~ 3100 650 
+Connection ~ 3400 650 
+Connection ~ 3700 650 
+Connection ~ 3700 1550
+Connection ~ 3400 1550
+Connection ~ 3100 1550
+Connection ~ 2800 1550
+Connection ~ 2500 1550
+Connection ~ 2200 1550
+Connection ~ 1900 1550
+Connection ~ 1900 2450
+Connection ~ 2200 2450
+Connection ~ 2500 2450
+Connection ~ 2800 2450
+Connection ~ 3100 2450
+Connection ~ 3400 2450
+Connection ~ 3700 2450
+Connection ~ 3700 3350
+Connection ~ 3400 3350
+Connection ~ 3100 3350
+Connection ~ 2800 3350
+Connection ~ 2500 3350
+Connection ~ 2200 3350
+Connection ~ 1900 3350
+Connection ~ 1900 4250
+Connection ~ 2200 4250
+Connection ~ 2500 4250
+Connection ~ 2800 4250
+Connection ~ 3100 4250
+Connection ~ 3400 4250
+Connection ~ 3700 4250
+Connection ~ 3700 5150
+Connection ~ 3400 5150
+Connection ~ 3100 5150
+Connection ~ 2800 5150
+Connection ~ 2500 5150
+Connection ~ 2200 5150
+Connection ~ 1900 5150
+Connection ~ 1900 6050
+Connection ~ 2200 6050
+Connection ~ 2500 6050
+Connection ~ 2800 6050
+Connection ~ 3100 6050
+Connection ~ 3400 6050
+Connection ~ 3700 6050
+Connection ~ 1900 6950
+Connection ~ 2200 6950
+Connection ~ 2500 6950
+Connection ~ 2800 6950
+Connection ~ 3100 6950
+Connection ~ 3400 6950
+Connection ~ 3700 6950
 $EndSCHEMATC
