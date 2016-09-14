@@ -35,7 +35,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Atmel led matrix"
-Date "11 jun 2016"
+Date "14 sep 2016"
 Rev "1"
 Comp "Nangoniac"
 Comment1 ""
@@ -1214,13 +1214,6 @@ F 3 "" H 3700 7150 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1600 6950 3900 6950
-Wire Wire Line
-	8150 3250 8850 3250
-Wire Wire Line
-	8150 3150 8300 3150
-Wire Wire Line
-	8300 3150 8300 3250
-Connection ~ 8300 3250
 $Comp
 L Battery BT1
 U 1 1 573A36D4
@@ -1232,8 +1225,6 @@ F 3 "" V 8850 2540 50  0000 C CNN
 	1    8850 2500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8150 950  8850 950 
 Wire Wire Line
 	8850 2800 8850 3400
 $Comp
@@ -1327,4 +1318,62 @@ Connection ~ 3400 6950
 Connection ~ 3700 6950
 Connection ~ 2300 2500
 Connection ~ 8850 3250
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 57D941F4
+P 8450 750
+F 0 "#FLG02" H 8450 845 30  0001 C CNN
+F 1 "PWR_FLAG" H 8450 930 30  0000 C CNN
+F 2 "" H 8450 750 60  0000 C CNN
+F 3 "" H 8450 750 60  0000 C CNN
+	1    8450 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 57D942AF
+P 8850 750
+F 0 "#FLG03" H 8850 845 30  0001 C CNN
+F 1 "PWR_FLAG" H 8850 930 30  0000 C CNN
+F 2 "" H 8850 750 60  0000 C CNN
+F 3 "" H 8850 750 60  0000 C CNN
+	1    8850 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 750  8850 950 
+$Comp
+L GND #PWR?
+U 1 1 57D94359
+P 8300 3450
+F 0 "#PWR?" H 8300 3200 50  0001 C CNN
+F 1 "GND" H 8300 3300 50  0000 C CNN
+F 2 "" H 8300 3450 50  0000 C CNN
+F 3 "" H 8300 3450 50  0000 C CNN
+	1    8300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57D9435F
+P 8300 2950
+F 0 "#PWR?" H 8300 2700 50  0001 C CNN
+F 1 "GND" H 8300 2800 50  0000 C CNN
+F 2 "" H 8300 2950 50  0000 C CNN
+F 3 "" H 8300 2950 50  0000 C CNN
+	1    8300 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 3150 8300 3150
+Wire Wire Line
+	8300 3150 8300 2950
+Wire Wire Line
+	8150 3250 8300 3250
+Wire Wire Line
+	8300 3250 8300 3450
+Wire Wire Line
+	8150 950  8450 950 
+Wire Wire Line
+	8450 950  8450 750 
 $EndSCHEMATC
