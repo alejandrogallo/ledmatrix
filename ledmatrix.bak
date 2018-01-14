@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ledmatrix-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ledmatrix-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Atmel led matrix"
-Date "11 jun 2016"
+Date "14 sep 2016"
 Rev "1"
 Comp "Nangoniac"
 Comment1 ""
@@ -44,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA328-P Controller1
+L ATMEGA328-P-RESCUE-ledmatrix Controller1
 U 1 1 5739FEC2
 P 7250 2050
 F 0 "Controller1" H 6500 3300 50  0000 L BNN
@@ -55,7 +56,7 @@ F 3 "" H 7250 2050 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-ledmatrix R1
 U 1 1 5739FF48
 P 4150 650
 F 0 "R1" V 4230 650 50  0000 C CNN
@@ -66,7 +67,7 @@ F 3 "" H 4150 650 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D49
+L LED-RESCUE-ledmatrix D49
 U 1 1 5739FF6F
 P 3400 850
 F 0 "D49" H 3400 950 50  0000 C CNN
@@ -77,7 +78,7 @@ F 3 "" H 3400 850 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D41
+L LED-RESCUE-ledmatrix D41
 U 1 1 573A0288
 P 3100 850
 F 0 "D41" H 3100 950 50  0000 C CNN
@@ -88,7 +89,7 @@ F 3 "" H 3100 850 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D33
+L LED-RESCUE-ledmatrix D33
 U 1 1 573A02B9
 P 2800 850
 F 0 "D33" H 2800 950 50  0000 C CNN
@@ -99,7 +100,7 @@ F 3 "" H 2800 850 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D25
+L LED-RESCUE-ledmatrix D25
 U 1 1 573A02DE
 P 2500 850
 F 0 "D25" H 2500 950 50  0000 C CNN
@@ -110,7 +111,7 @@ F 3 "" H 2500 850 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D17
+L LED-RESCUE-ledmatrix D17
 U 1 1 573A0301
 P 2200 850
 F 0 "D17" H 2200 950 50  0000 C CNN
@@ -121,7 +122,7 @@ F 3 "" H 2200 850 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D9
+L LED-RESCUE-ledmatrix D9
 U 1 1 573A0327
 P 1900 850
 F 0 "D9" H 1900 950 50  0000 C CNN
@@ -132,7 +133,7 @@ F 3 "" H 1900 850 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-ledmatrix D1
 U 1 1 573A0353
 P 1600 850
 F 0 "D1" H 1600 950 50  0000 C CNN
@@ -143,7 +144,7 @@ F 3 "" H 1600 850 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-ledmatrix R2
 U 1 1 573A1295
 P 4150 1550
 F 0 "R2" V 4230 1550 50  0000 C CNN
@@ -154,7 +155,7 @@ F 3 "" H 4150 1550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-ledmatrix R3
 U 1 1 573A1702
 P 4150 2450
 F 0 "R3" V 4230 2450 50  0000 C CNN
@@ -165,7 +166,7 @@ F 3 "" H 4150 2450 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-ledmatrix R4
 U 1 1 573A1733
 P 4150 3350
 F 0 "R4" V 4230 3350 50  0000 C CNN
@@ -176,7 +177,7 @@ F 3 "" H 4150 3350 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-ledmatrix R5
 U 1 1 573A207D
 P 4150 4250
 F 0 "R5" V 4230 4250 50  0000 C CNN
@@ -187,7 +188,7 @@ F 3 "" H 4150 4250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-ledmatrix R6
 U 1 1 573A20AE
 P 4150 5150
 F 0 "R6" V 4230 5150 50  0000 C CNN
@@ -198,7 +199,7 @@ F 3 "" H 4150 5150 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-ledmatrix R7
 U 1 1 573A20DF
 P 4150 6050
 F 0 "R7" V 4230 6050 50  0000 C CNN
@@ -273,7 +274,7 @@ Wire Wire Line
 Text Label 4650 6950 0    60   ~ 0
 CA7
 $Comp
-L R R8
+L R-RESCUE-ledmatrix R8
 U 1 1 573A4CB0
 P 4150 6950
 F 0 "R8" V 4230 6950 50  0000 C CNN
@@ -348,7 +349,7 @@ Wire Wire Line
 Text Label 3700 1250 1    60   ~ 0
 AA7
 $Comp
-L LED D57
+L LED-RESCUE-ledmatrix D57
 U 1 1 573A98F0
 P 3700 850
 F 0 "D57" H 3700 950 50  0000 C CNN
@@ -361,7 +362,7 @@ $EndComp
 Wire Wire Line
 	1600 650  3900 650 
 $Comp
-L LED D50
+L LED-RESCUE-ledmatrix D50
 U 1 1 573A9C9B
 P 3400 1750
 F 0 "D50" H 3400 1850 50  0000 C CNN
@@ -372,7 +373,7 @@ F 3 "" H 3400 1750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D42
+L LED-RESCUE-ledmatrix D42
 U 1 1 573A9CA1
 P 3100 1750
 F 0 "D42" H 3100 1850 50  0000 C CNN
@@ -383,7 +384,7 @@ F 3 "" H 3100 1750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D34
+L LED-RESCUE-ledmatrix D34
 U 1 1 573A9CA7
 P 2800 1750
 F 0 "D34" H 2800 1850 50  0000 C CNN
@@ -394,7 +395,7 @@ F 3 "" H 2800 1750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D26
+L LED-RESCUE-ledmatrix D26
 U 1 1 573A9CAD
 P 2500 1750
 F 0 "D26" H 2500 1850 50  0000 C CNN
@@ -405,7 +406,7 @@ F 3 "" H 2500 1750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D18
+L LED-RESCUE-ledmatrix D18
 U 1 1 573A9CB3
 P 2200 1750
 F 0 "D18" H 2200 1850 50  0000 C CNN
@@ -416,7 +417,7 @@ F 3 "" H 2200 1750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D10
+L LED-RESCUE-ledmatrix D10
 U 1 1 573A9CB9
 P 1900 1750
 F 0 "D10" H 1900 1850 50  0000 C CNN
@@ -427,7 +428,7 @@ F 3 "" H 1900 1750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-ledmatrix D2
 U 1 1 573A9CBF
 P 1600 1750
 F 0 "D2" H 1600 1850 50  0000 C CNN
@@ -470,7 +471,7 @@ Wire Wire Line
 Text Label 3700 2150 1    60   ~ 0
 AA7
 $Comp
-L LED D58
+L LED-RESCUE-ledmatrix D58
 U 1 1 573A9CD5
 P 3700 1750
 F 0 "D58" H 3700 1850 50  0000 C CNN
@@ -483,7 +484,7 @@ $EndComp
 Wire Wire Line
 	1600 1550 3900 1550
 $Comp
-L LED D51
+L LED-RESCUE-ledmatrix D51
 U 1 1 573A9F52
 P 3400 2650
 F 0 "D51" H 3400 2750 50  0000 C CNN
@@ -494,7 +495,7 @@ F 3 "" H 3400 2650 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D43
+L LED-RESCUE-ledmatrix D43
 U 1 1 573A9F58
 P 3100 2650
 F 0 "D43" H 3100 2750 50  0000 C CNN
@@ -505,7 +506,7 @@ F 3 "" H 3100 2650 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D35
+L LED-RESCUE-ledmatrix D35
 U 1 1 573A9F5E
 P 2800 2650
 F 0 "D35" H 2800 2750 50  0000 C CNN
@@ -516,7 +517,7 @@ F 3 "" H 2800 2650 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D27
+L LED-RESCUE-ledmatrix D27
 U 1 1 573A9F64
 P 2500 2650
 F 0 "D27" H 2500 2750 50  0000 C CNN
@@ -527,7 +528,7 @@ F 3 "" H 2500 2650 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D19
+L LED-RESCUE-ledmatrix D19
 U 1 1 573A9F6A
 P 2200 2650
 F 0 "D19" H 2200 2750 50  0000 C CNN
@@ -538,7 +539,7 @@ F 3 "" H 2200 2650 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D11
+L LED-RESCUE-ledmatrix D11
 U 1 1 573A9F70
 P 1900 2650
 F 0 "D11" H 1900 2750 50  0000 C CNN
@@ -549,7 +550,7 @@ F 3 "" H 1900 2650 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-ledmatrix D3
 U 1 1 573A9F76
 P 1600 2650
 F 0 "D3" H 1600 2750 50  0000 C CNN
@@ -592,7 +593,7 @@ Wire Wire Line
 Text Label 3700 3050 1    60   ~ 0
 AA7
 $Comp
-L LED D59
+L LED-RESCUE-ledmatrix D59
 U 1 1 573A9F8C
 P 3700 2650
 F 0 "D59" H 3700 2750 50  0000 C CNN
@@ -605,7 +606,7 @@ $EndComp
 Wire Wire Line
 	1600 2450 3900 2450
 $Comp
-L LED D52
+L LED-RESCUE-ledmatrix D52
 U 1 1 573A9F93
 P 3400 3550
 F 0 "D52" H 3400 3650 50  0000 C CNN
@@ -616,7 +617,7 @@ F 3 "" H 3400 3550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D44
+L LED-RESCUE-ledmatrix D44
 U 1 1 573A9F99
 P 3100 3550
 F 0 "D44" H 3100 3650 50  0000 C CNN
@@ -627,7 +628,7 @@ F 3 "" H 3100 3550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D36
+L LED-RESCUE-ledmatrix D36
 U 1 1 573A9F9F
 P 2800 3550
 F 0 "D36" H 2800 3650 50  0000 C CNN
@@ -638,7 +639,7 @@ F 3 "" H 2800 3550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D28
+L LED-RESCUE-ledmatrix D28
 U 1 1 573A9FA5
 P 2500 3550
 F 0 "D28" H 2500 3650 50  0000 C CNN
@@ -649,7 +650,7 @@ F 3 "" H 2500 3550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D20
+L LED-RESCUE-ledmatrix D20
 U 1 1 573A9FAB
 P 2200 3550
 F 0 "D20" H 2200 3650 50  0000 C CNN
@@ -660,7 +661,7 @@ F 3 "" H 2200 3550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D12
+L LED-RESCUE-ledmatrix D12
 U 1 1 573A9FB1
 P 1900 3550
 F 0 "D12" H 1900 3650 50  0000 C CNN
@@ -671,7 +672,7 @@ F 3 "" H 1900 3550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-ledmatrix D4
 U 1 1 573A9FB7
 P 1600 3550
 F 0 "D4" H 1600 3650 50  0000 C CNN
@@ -714,7 +715,7 @@ Wire Wire Line
 Text Label 3700 3950 1    60   ~ 0
 AA7
 $Comp
-L LED D60
+L LED-RESCUE-ledmatrix D60
 U 1 1 573A9FCD
 P 3700 3550
 F 0 "D60" H 3700 3650 50  0000 C CNN
@@ -727,7 +728,7 @@ $EndComp
 Wire Wire Line
 	1600 3350 3900 3350
 $Comp
-L LED D53
+L LED-RESCUE-ledmatrix D53
 U 1 1 573AA899
 P 3400 4450
 F 0 "D53" H 3400 4550 50  0000 C CNN
@@ -738,7 +739,7 @@ F 3 "" H 3400 4450 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D45
+L LED-RESCUE-ledmatrix D45
 U 1 1 573AA89F
 P 3100 4450
 F 0 "D45" H 3100 4550 50  0000 C CNN
@@ -749,7 +750,7 @@ F 3 "" H 3100 4450 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D37
+L LED-RESCUE-ledmatrix D37
 U 1 1 573AA8A5
 P 2800 4450
 F 0 "D37" H 2800 4550 50  0000 C CNN
@@ -760,7 +761,7 @@ F 3 "" H 2800 4450 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D29
+L LED-RESCUE-ledmatrix D29
 U 1 1 573AA8AB
 P 2500 4450
 F 0 "D29" H 2500 4550 50  0000 C CNN
@@ -771,7 +772,7 @@ F 3 "" H 2500 4450 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D21
+L LED-RESCUE-ledmatrix D21
 U 1 1 573AA8B1
 P 2200 4450
 F 0 "D21" H 2200 4550 50  0000 C CNN
@@ -782,7 +783,7 @@ F 3 "" H 2200 4450 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D13
+L LED-RESCUE-ledmatrix D13
 U 1 1 573AA8B7
 P 1900 4450
 F 0 "D13" H 1900 4550 50  0000 C CNN
@@ -793,7 +794,7 @@ F 3 "" H 1900 4450 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D5
+L LED-RESCUE-ledmatrix D5
 U 1 1 573AA8BD
 P 1600 4450
 F 0 "D5" H 1600 4550 50  0000 C CNN
@@ -836,7 +837,7 @@ Wire Wire Line
 Text Label 3700 4850 1    60   ~ 0
 AA7
 $Comp
-L LED D61
+L LED-RESCUE-ledmatrix D61
 U 1 1 573AA8D3
 P 3700 4450
 F 0 "D61" H 3700 4550 50  0000 C CNN
@@ -849,7 +850,7 @@ $EndComp
 Wire Wire Line
 	1600 4250 3900 4250
 $Comp
-L LED D54
+L LED-RESCUE-ledmatrix D54
 U 1 1 573AA8DA
 P 3400 5350
 F 0 "D54" H 3400 5450 50  0000 C CNN
@@ -860,7 +861,7 @@ F 3 "" H 3400 5350 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D46
+L LED-RESCUE-ledmatrix D46
 U 1 1 573AA8E0
 P 3100 5350
 F 0 "D46" H 3100 5450 50  0000 C CNN
@@ -871,7 +872,7 @@ F 3 "" H 3100 5350 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D38
+L LED-RESCUE-ledmatrix D38
 U 1 1 573AA8E6
 P 2800 5350
 F 0 "D38" H 2800 5450 50  0000 C CNN
@@ -882,7 +883,7 @@ F 3 "" H 2800 5350 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D30
+L LED-RESCUE-ledmatrix D30
 U 1 1 573AA8EC
 P 2500 5350
 F 0 "D30" H 2500 5450 50  0000 C CNN
@@ -893,7 +894,7 @@ F 3 "" H 2500 5350 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D22
+L LED-RESCUE-ledmatrix D22
 U 1 1 573AA8F2
 P 2200 5350
 F 0 "D22" H 2200 5450 50  0000 C CNN
@@ -904,7 +905,7 @@ F 3 "" H 2200 5350 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D14
+L LED-RESCUE-ledmatrix D14
 U 1 1 573AA8F8
 P 1900 5350
 F 0 "D14" H 1900 5450 50  0000 C CNN
@@ -915,7 +916,7 @@ F 3 "" H 1900 5350 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D6
+L LED-RESCUE-ledmatrix D6
 U 1 1 573AA8FE
 P 1600 5350
 F 0 "D6" H 1600 5450 50  0000 C CNN
@@ -958,7 +959,7 @@ Wire Wire Line
 Text Label 3700 5750 1    60   ~ 0
 AA7
 $Comp
-L LED D62
+L LED-RESCUE-ledmatrix D62
 U 1 1 573AA914
 P 3700 5350
 F 0 "D62" H 3700 5450 50  0000 C CNN
@@ -971,7 +972,7 @@ $EndComp
 Wire Wire Line
 	1600 5150 3900 5150
 $Comp
-L LED D55
+L LED-RESCUE-ledmatrix D55
 U 1 1 573AA91B
 P 3400 6250
 F 0 "D55" H 3400 6350 50  0000 C CNN
@@ -982,7 +983,7 @@ F 3 "" H 3400 6250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D47
+L LED-RESCUE-ledmatrix D47
 U 1 1 573AA921
 P 3100 6250
 F 0 "D47" H 3100 6350 50  0000 C CNN
@@ -993,7 +994,7 @@ F 3 "" H 3100 6250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D39
+L LED-RESCUE-ledmatrix D39
 U 1 1 573AA927
 P 2800 6250
 F 0 "D39" H 2800 6350 50  0000 C CNN
@@ -1004,7 +1005,7 @@ F 3 "" H 2800 6250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D31
+L LED-RESCUE-ledmatrix D31
 U 1 1 573AA92D
 P 2500 6250
 F 0 "D31" H 2500 6350 50  0000 C CNN
@@ -1015,7 +1016,7 @@ F 3 "" H 2500 6250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D23
+L LED-RESCUE-ledmatrix D23
 U 1 1 573AA933
 P 2200 6250
 F 0 "D23" H 2200 6350 50  0000 C CNN
@@ -1026,7 +1027,7 @@ F 3 "" H 2200 6250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D15
+L LED-RESCUE-ledmatrix D15
 U 1 1 573AA939
 P 1900 6250
 F 0 "D15" H 1900 6350 50  0000 C CNN
@@ -1037,7 +1038,7 @@ F 3 "" H 1900 6250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D7
+L LED-RESCUE-ledmatrix D7
 U 1 1 573AA93F
 P 1600 6250
 F 0 "D7" H 1600 6350 50  0000 C CNN
@@ -1080,7 +1081,7 @@ Wire Wire Line
 Text Label 3700 6650 1    60   ~ 0
 AA7
 $Comp
-L LED D63
+L LED-RESCUE-ledmatrix D63
 U 1 1 573AA955
 P 3700 6250
 F 0 "D63" H 3700 6350 50  0000 C CNN
@@ -1093,7 +1094,7 @@ $EndComp
 Wire Wire Line
 	1600 6050 3900 6050
 $Comp
-L LED D56
+L LED-RESCUE-ledmatrix D56
 U 1 1 573AA95C
 P 3400 7150
 F 0 "D56" H 3400 7250 50  0000 C CNN
@@ -1104,7 +1105,7 @@ F 3 "" H 3400 7150 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D48
+L LED-RESCUE-ledmatrix D48
 U 1 1 573AA962
 P 3100 7150
 F 0 "D48" H 3100 7250 50  0000 C CNN
@@ -1115,7 +1116,7 @@ F 3 "" H 3100 7150 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D40
+L LED-RESCUE-ledmatrix D40
 U 1 1 573AA968
 P 2800 7150
 F 0 "D40" H 2800 7250 50  0000 C CNN
@@ -1126,7 +1127,7 @@ F 3 "" H 2800 7150 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D32
+L LED-RESCUE-ledmatrix D32
 U 1 1 573AA96E
 P 2500 7150
 F 0 "D32" H 2500 7250 50  0000 C CNN
@@ -1137,7 +1138,7 @@ F 3 "" H 2500 7150 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D24
+L LED-RESCUE-ledmatrix D24
 U 1 1 573AA974
 P 2200 7150
 F 0 "D24" H 2200 7250 50  0000 C CNN
@@ -1148,7 +1149,7 @@ F 3 "" H 2200 7150 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D16
+L LED-RESCUE-ledmatrix D16
 U 1 1 573AA97A
 P 1900 7150
 F 0 "D16" H 1900 7250 50  0000 C CNN
@@ -1159,7 +1160,7 @@ F 3 "" H 1900 7150 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D8
+L LED-RESCUE-ledmatrix D8
 U 1 1 573AA980
 P 1600 7150
 F 0 "D8" H 1600 7250 50  0000 C CNN
@@ -1202,7 +1203,7 @@ Wire Wire Line
 Text Label 3700 7550 1    60   ~ 0
 AA7
 $Comp
-L LED D64
+L LED-RESCUE-ledmatrix D64
 U 1 1 573AA996
 P 3700 7150
 F 0 "D64" H 3700 7250 50  0000 C CNN
@@ -1214,13 +1215,6 @@ F 3 "" H 3700 7150 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1600 6950 3900 6950
-Wire Wire Line
-	8150 3250 8850 3250
-Wire Wire Line
-	8150 3150 8300 3150
-Wire Wire Line
-	8300 3150 8300 3250
-Connection ~ 8300 3250
 $Comp
 L Battery BT1
 U 1 1 573A36D4
@@ -1230,14 +1224,12 @@ F 1 "Battery" H 8950 2450 50  0000 L CNN
 F 2 "" V 8850 2540 50  0000 C CNN
 F 3 "" V 8850 2540 50  0000 C CNN
 	1    8850 2500
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 950  8850 950 
-Wire Wire Line
-	8850 2800 8850 3400
+	8850 2700 8850 3400
 $Comp
-L GND #PWR01
+L GND-RESCUE-ledmatrix #PWR01
 U 1 1 573A3AF4
 P 8850 3400
 F 0 "#PWR01" H 8850 3150 50  0001 C CNN
@@ -1259,7 +1251,7 @@ F 3 "" H 8850 1450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8850 1950 8850 2200
+	8850 1950 8850 2300
 NoConn ~ 8150 1550
 NoConn ~ 8150 1250
 NoConn ~ 6250 1800
@@ -1327,4 +1319,56 @@ Connection ~ 3400 6950
 Connection ~ 3700 6950
 Connection ~ 2300 2500
 Connection ~ 8850 3250
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 57D941F4
+P 8450 750
+F 0 "#FLG02" H 8450 845 30  0001 C CNN
+F 1 "PWR_FLAG" H 8450 930 30  0000 C CNN
+F 2 "" H 8450 750 60  0000 C CNN
+F 3 "" H 8450 750 60  0000 C CNN
+	1    8450 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 57D942AF
+P 8850 750
+F 0 "#FLG03" H 8850 845 30  0001 C CNN
+F 1 "PWR_FLAG" H 8850 930 30  0000 C CNN
+F 2 "" H 8850 750 60  0000 C CNN
+F 3 "" H 8850 750 60  0000 C CNN
+	1    8850 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 750  8850 950 
+$Comp
+L GND-RESCUE-ledmatrix #PWR04
+U 1 1 57D9435F
+P 8300 2950
+F 0 "#PWR04" H 8300 2700 50  0001 C CNN
+F 1 "GND" H 8300 2800 50  0000 C CNN
+F 2 "" H 8300 2950 50  0000 C CNN
+F 3 "" H 8300 2950 50  0000 C CNN
+	1    8300 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 3150 8300 3150
+Wire Wire Line
+	8300 3150 8300 2950
+Wire Wire Line
+	8150 950  8450 950 
+Wire Wire Line
+	8450 950  8450 750 
+Wire Wire Line
+	8150 3250 8250 3250
+Wire Wire Line
+	8250 3250 8250 3150
+Connection ~ 8250 3150
+Connection ~ 8850 2300
+Connection ~ 8850 2700
+Connection ~ 8150 3150
+Connection ~ 8150 3250
 $EndSCHEMATC
